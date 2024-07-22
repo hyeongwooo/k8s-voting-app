@@ -15,7 +15,7 @@ spec:
         app: db
     spec:
       containers:
-      - image: nginx:latest
+      - image: postgres:9.4
         name: postgres
         env:
         - name: POSTGRES_USER
